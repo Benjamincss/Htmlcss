@@ -1,0 +1,190 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+
+
+* {
+
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none; 
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+#logo{
+    align-items: center;
+    display: flex;
+     margin-left: 30px;
+     width: 170;
+
+  
+    
+}
+
+
+
+nav a{
+    
+    color: black;
+    list-style-type: none;
+    
+    justify-content: flex-end;
+   
+  
+}
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin-top: 30px;
+    padding-right: 30px;
+ 
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    
+    
+
+  }
+  .flexaround a {
+    padding: 10px;
+    margin-right: 60px;
+   
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .search{
+
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+
+  .search h2{
+    margin-bottom: 10px;
+      }
+
+  .search p{
+margin-bottom: 15px;
+  }
+
+
+  .flexaround :hover{
+    color: #0065FC;
+    border-top: 4px solid #0065FC;
+    padding-top: 28px;
+    font-weight: 700;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    height: 50px;
+    
+}
+#bar{
+padding: 15px;
+border-radius: 8px;
+border: 1px solid #f2f2f2;
+font-weight: 900;
+
+
+}
+
+button{
+    padding: 15px;
+    border-radius: 8px;
+    margin-right: 1px;
+    color: white;
+    background-color: black;
+    font-weight: 600;
+    border: 1px solid #f2f2f2;
+    font-size: 16px;
+    
+}
+
+
+button:hover{
+    background-color: #0065FC;
+}
+#marker{
+    background-color: #f2f2f2;
+    margin: auto;
+    border-radius: 15px 0 0 15px;
+    font-size: 1.2rem;
+    padding: 18px;
+}
+.messagefilter{
+
+}
+.tag{
+   display: flex;
+   align-items: center;
+   
+   padding-top: 35px;
+   padding-left: 55px;
+  
+}
+
+.tag i{
+    padding-top: 3px;
+    margin-left: 50px;
+    border: 18px solid #f2f2f2;
+    border-radius: 25px;
+    border-radius: 25px;
+    color: black;
+}
+
+.tag div{
+    padding-top: 3px;
+    margin-left: 50px;
+    border: 1px solid #f2f2f2;
+    border-radius: 25px;
+    border-radius: 25px;
+}
+
+.tag i:hover{
+    padding-top: 3px;
+    margin-left: 50px;
+    border: 18px solid #f2f2f2;
+    border-radius: 25px;
+    border-radius: 25px;
+    color: #0065FC;
+}
+.textag{
+    padding-top: 35px;
+    padding-left: 50px;
+}
+
+span{
+padding-left: 3px;
+}
+
+
+
+
+
